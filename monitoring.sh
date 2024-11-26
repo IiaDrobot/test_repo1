@@ -31,7 +31,7 @@ process_count=$(ps -ef | wc -l)
 # Количество пользователей
 user_count=$(who | wc -l)
 # Выводим отчет
-echo "Отчет о системе"
+
 echo "Версия операционной системы: $os_version"
 echo "Дата: $current_date"
 echo "Время: $current_time"
