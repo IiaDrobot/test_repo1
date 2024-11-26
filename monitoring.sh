@@ -33,7 +33,7 @@ user_count=$(who | wc -l)
 # Выводим отчет
 
 echo "Версия операционной системы: $os_version"
-echo "Дата: $current_date"
+
 echo "Время: $current_time"
 echo "Время работы системы: $uptime_info"
 echo "Загруженность системы: $system_load"
